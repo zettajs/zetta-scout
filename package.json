@@ -4,7 +4,7 @@
   "description": "A Scout class for Zetta.",
   "main": "scout.js",
   "dependencies": {
-    "zetta-scientist": "~0.1.0"
+    "zetta-scientist": "~0.2.0"
   },
   "devDependencies": {},
   "scripts": {
