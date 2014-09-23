@@ -2,7 +2,7 @@ var Scientist = require('zetta-scientist');
 var EventEmitter = require('events').EventEmitter;
 var util = require('util');
 
-var Scout = module.exports = function() {
+var Scout = module.exports = function Scout() {
   this.server = null; // set when app.use initializes it
 };
 
