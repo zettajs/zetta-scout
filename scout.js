@@ -41,8 +41,8 @@ Scout.prototype.provision = function(deviceObject, constructor) {
   // TODO: add new device code
   var machine = this.createDevice(args);
   machine.id = deviceObject.id; // must set id before machine_config runs
+  machine.name = deviceObject.name;
   machine = Scientist.init(machine);
-  machine.name = deviceObject.name; // must set other properties after machine_config runs
 
   // add to list of initiated
   this.server._jsDevices[machine.id] = machine;
