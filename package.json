@@ -1,10 +1,10 @@
 {
   "name": "zetta-scout",
-  "version": "0.7.0",
+  "version": "1.0.0",
   "description": "A Scout class for Zetta.",
   "main": "scout.js",
   "dependencies": {
-    "zetta-scientist": "^0.7.0"
+    "zetta-scientist": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
